@@ -1,0 +1,8 @@
+yil=int(input("Yılı giriniz:"))
+if(yil % 4 == 0 and (yil % 100 != 0 or yil % 400 == 0)):
+    print("Artık Yıldır")
+else:
+    print("Artık yıl değildir")
+
+   Yılı giriniz:2020
+Artık Yıldır
